@@ -1,0 +1,24 @@
+# Python virtuelle Umgebung
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output-Ordner des Generators
+output/*
+!output/.gitkeep
+
+# IDE-spezifische Dateien (PyCharm & VS Code)
+.idea/
+.vscode/
+
+# Systemdateien (Mac & Windows)
+.DS_Store
+Thumbs.db
+
+# Projekt-Logdateien
+*.log

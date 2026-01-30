@@ -1,0 +1,8 @@
+{
+  "output_size": [3240, 1350],
+  "slice_count": 3,
+  "background": { "type": "palette", "value": "orange" },
+  "output_dir": "output",
+  "hyphenation": { "enabled": true, "lang": "de_DE", "hyphen": "-" },
+  "box_radius": 60
+}

@@ -1,0 +1,98 @@
+{
+  "modules": [
+    {
+      "id": "GI102",
+      "title": "Grundlagen Informatik",
+      "slice1_info": "Einführung in die grundlegenden Konzepte der Informatik",
+      "semester": "1. Semester",
+      "slice3_info": "Informationsverarbeitung, Codierung, Modelle & Automatentheorie, Einführung in Internet, HTML, KI und Datenschutz",
+
+      "background": { "type": "palette", "value": "orange" },
+
+      "lecturer": {
+        "name": "Prof. Dr. Mustermann",
+        "photo": "socialmedia_generator_elias/assets/placeholder.jpg",
+        "target_width": 800,
+        "target_height": 850,
+        "offset_x": 0,
+        "offset_y": 0
+      },
+
+      "box_colors": {
+        "slice1": "orange",
+        "slice2": "orange",
+        "slice3": "orange"
+      },
+
+
+      "text_colors": {
+        "title":       "black",
+        "slice1_info": "black",
+        "semester":    "black",
+        "slice2_info": "black",
+        "slice3_info": "black"
+      },
+
+      "display": {
+        "title_box":     true,
+        "info_box":      true,
+        "semester_box":  true,
+        "lecturer_box":  true,
+        "footer_box":    true
+      },
+
+      "offsets": {
+        "slice1": {
+          "title":    [0, 0],
+          "info":     [0, 100],
+          "semester": [0, 80]
+        },
+        "slice2": {
+          "lecturer": [0, -250]
+        },
+        "slice3": {
+          "info": [0, 0]
+        }
+      },
+
+      "fonts": {
+        "title":       { "path": "assets/fonts/Roboto-Bold.ttf",    "size": 100 },
+        "slice1_info": { "path": "assets/fonts/Roboto-Bold.ttf", "size": 68 },
+        "semester":    { "path": "assets/fonts/Roboto-Bold.ttf",    "size": 100 },
+        "lecturer":    { "path": "assets/fonts/Roboto-Bold.ttf",    "size": 85 },
+        "slice3_info": { "path": "assets/fonts/Roboto-Bold.ttf", "size": 68 }
+      },
+
+      "spacings": {
+        "slice1": {
+          "title": { "line_spacing": 10, "padding": 30 },
+          "info":  { "line_spacing": 10, "padding": 50 }
+        },
+        "semester": { "margin": [50, 50] },
+        "slice3":   { "info": { "line_spacing": 10 },   "box_y_offset": 100 }
+      },
+
+      "slice1_title_info_spacing": 40,
+      "slice3_line_spacing": 10,
+
+      "fingerprint": {
+        "enabled": true,
+        "background_mode": "centered",
+          "fingerprint_max_width": 200,
+          "fingerprint_max_height": 200,
+          "fingerprint_offset_x": 1,
+          "fingerprint_offset_y": 300,
+	"input_image": "socialmedia_generator_elias/assets/backgrounds_fingerprint/background_default.jpg",
+        "background_alpha": 280,
+        "random_seed": 47,
+        "base_size": 32,
+        "zone_count": 2,
+        "enabled_sides": ["top", "right", "left", "bottom"],
+        "background_color": [255, 102, 0],
+        "grid": {
+          "omit_chance": 0.45
+        }
+      }
+      }
+  ]
+}
